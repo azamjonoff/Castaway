@@ -90,7 +90,7 @@ main {
   margin-top: 26px;
 }
 
-.header-container {
+.header__container {
   display: flex;
   align-items: center;
 }
@@ -134,6 +134,66 @@ main {
 
 /* MAIN STYLES START */
 
-
-
 /* MAIN STYLES END */
+
+/* FOOTER STYLES START */
+
+.footer {
+}
+.footer__container {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding-bottom: 16px;
+}
+.footer__socials {
+  display: flex;
+  flex-direction: column;
+  gap: 20.9px;
+  width: 447.14px;
+}
+.footer__social_list {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.footer__social_item {
+}
+.footer__social_icons {
+}
+.footer__info {
+  display: flex;
+  gap: 16px;
+}
+.footer__info_list {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+.footer__info_items {
+}
+.footer__info_little_list {
+  width: 178.84px;
+}
+.footer__info_links {
+  color: var(--secondary-color);
+  font-size: 1.7rem;
+  line-height: 1.6em;
+}
+.footer__info_little_itemfirst {
+  gap: 10px;
+}
+.footer__info_little_itemsecond {
+  gap: 10px;
+}
+.footer__info_little_itemthird {
+}
+
+.footer__info_little_list_icons {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+/* FOOTER STYLES END */
