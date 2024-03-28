@@ -134,6 +134,77 @@ main {
 
 /* MAIN STYLES START */
 
+/* SECTION HERO STYLES START */
+
+.main {
+}
+.main__container {
+}
+.hero {
+}
+.hero__div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero__div span img {
+  position: absolute;
+  top: 95px;
+}
+.hero__img {
+  position: relative;
+  z-index: -1;
+  margin-left: 22px;
+}
+.hero__description {
+  margin-left: 40px;
+}
+.hero__description__texts {
+  margin-bottom: 74px;
+}
+.hero__description_text {
+  display: inline;
+  font-size: 7rem;
+  line-height: 1.25em;
+  letter-spacing: 0.32rem;
+}
+.hero__description_next {
+  display: inline;
+  font-size: 7.5rem;
+  line-height: 1.17em;
+  letter-spacing: 0.32rem;
+  background-image: url(../images/next.svg);
+}
+.hero__description_level {
+  margin-left: 25px;
+  display: inline;
+  font-weight: 700;
+  font-size: 8rem;
+  line-height: 1.1em;
+  letter-spacing: 0.32rem;
+}
+.hero__listen {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.hero__listen_text {
+  font-size: 1.5rem;
+  line-height: 1.6em;
+}
+.hero__listen_list {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+.hero_listen_item {
+}
+.hero_listen_icons {
+}
+
+/* SECTION HERO STYLES END */
+
 /* MAIN STYLES END */
 
 /* FOOTER STYLES START */
