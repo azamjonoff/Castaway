@@ -205,11 +205,120 @@ main {
 
 /* SECTION HERO STYLES END */
 
-/* SECTION SERVICE STYLES START */
+/* SECTION EPICODE STYLES START */
+
+.epicode {
+  padding-top: 100px;
+  padding-bottom: 160px;
+}
+.epicode_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.epicode__wrapper_top {
+  display: flex;
+  align-items: center;
+}
+.epicode__wrapper_text {
+  display: inline-block;
+  margin-right: auto;
+  font-size: 6.4rem;
+  line-height: 1.2375em;
+  letter-spacing: 0.288rem;
+  padding-bottom: 26.44px;
+}
+.epicode__wrapper_link {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 15px;
+  padding-left: 20px;
+  border-radius: 6px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  font-size: 1.7rem;
+  line-height: 1.6em;
+
+  &:hover {
+    opacity: 0.6;
+    transition: 0.2;
+  }
+}
+.epicode__list {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.epicode__item {
+  display: flex;
+  padding: 40px;
+  background-color: var(--black-color);
+  border-radius: 32px;
+  gap: 53px;
+}
+.epicode__img {
+}
+.epicode_ {
+}
+.epicode__gear {
+  margin-top: 8px;
+  display: inline-block;
+  font-size: 1.8rem;
+  line-height: 1.5em;
+  padding-right: 16px;
+  padding-left: 16px;
+  border-radius: 6px;
+  background-color: var(--main-bg-color);
+  margin-bottom: 48.44px;
+}
+.epicode__number {
+  font-size: 1.8rem;
+  line-height: 1.5em;
+  color: var(--primary-color);
+  margin-bottom: 18px;
+}
+.epicode_name {
+  font-size: 6.4rem;
+  line-height: 1.1em;
+  letter-spacing: 0.256rem;
+  margin-bottom: 28px;
+}
+.epicode_name2 {
+  width: 676px;
+  font-size: 6.4rem;
+  line-height: 1.1em;
+  letter-spacing: 0.256rem;
+  margin-bottom: 28px;
+}
+.epicode__description {
+  font-size: 2.2rem;
+  line-height: 1.5em;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 18px;
+}
+.epicode__btn {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 15px;
+  padding-left: 20px;
+  border-radius: 6px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  font-size: 1.8rem;
+  line-height: 1.5em;
+
+  &:hover {
+    opacity: 0.6;
+    transition: 0.2;
+  }
+}
+
+/* SECTION EPICODE STYLES END */
+
+/* SECTION ABOUT STYLES START */
 
 
 
-/* SECTION SERVICE STYLES END */
+/* SECTION ABOUT STYLES END */
 
 /* MAIN STYLES END */
 
